@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    /* background-color: rgb(119, 117, 117); */
+}
+.nav h2{
+   
+    font-size: 45px;
+    font-weight: 700;
+}
+
+ul{
+    padding: 0 50px;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+li{
+    
+    list-style-type: none;
+    padding: 0 10px  ;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: all .4s ease-in-out;
+}
+.btn{
+    background-color: #e8fae5;
+    border-radius: 8px;
+    padding:10px 20px ;
+    border:2px solid  #97ea89 ;
+    color: #1DD100;
+}
+
+
+.fristdiv{
+    color: white;
+    
+    margin:50px auto;
+    height: 600px ;
+    width: 90%;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 50%),url('./images/banner.png');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    text-align: center;
+}
+
+.fristdiv h2{
+    font-size: 45px;
+    font: weight 90px;;
+}
+.fristdiv p{
+    font-size: 20px;
+    line-gap-override: 20px;
+    font: weight 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fristdiv span{
+    color:#1DD100;
+
+}
+
+
+.btn2{
+    background-color: #1DD100;
+    border-radius: 8px;
+    padding:10px 20px ;
+    border:2px solid  #1DD100;
+    font-size: 20px;
+    
+}
+.seconddiv{
+    
+    margin:20px auto;
+    /* height: 550px; */
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.seconddiv h2{
+    font-size: 30px;
+    
+}
+.carddiv{
+    margin:20px auto;
+    /* height: 350px; */
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    background-color: #FFBF0F;
+    text-align: left;
+    width: 45%;
+    
+    height: 60%;
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+.card2{
+    background-color: #F78C9C;
+    text-align: left;
+    width: 45%;
+    
+    height: 60%;
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.mainworkdiv{
+    width: 100%;
+    border-top: #1DD100;
+    border-radius:20px 0 ;
+    background-color: rgb(157, 157, 154);
+    height: 800px;
+}
