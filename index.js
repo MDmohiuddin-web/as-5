@@ -1,6 +1,8 @@
-let clickedButtonsCount = 0;
+
 const seatSerial = document.getElementById("seat-serial-section");
 let selectedSeats = [];
+let clickedButtonsCount = 0;
+
 
 seatSerial.addEventListener("click", function (e) {
   if (e.target.tagName === "BUTTON") {
